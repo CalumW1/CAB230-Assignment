@@ -1,0 +1,171 @@
+
+.content {
+    width: 100px;
+    height: 100px;
+}
+
+.rectangle {
+    height: 550px;
+    width: 450px;
+    background-color: white;
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 25px;
+}
+
+h1{
+    text-align: center;
+}
+
+.login input::placeholder{
+    color: gray;
+}
+
+.login input{
+    width: 300;
+    font-size: 20pt;
+    color: black;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.register input{
+    width: 300;
+    font-size: 20pt;
+    color: black;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.register input::placeholder{
+    color: gray;
+}
+
+button{
+    height: 50px;
+    width: 450px;
+    font-size: 20pt;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+button:hover{
+    background-color:  rgb(0, 198, 255);
+}
+
+p {
+    color: black;
+    font-size: 20pt;
+}
+
+.showoffences p{
+    font-size: 15px;
+}
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.rectangleoffence {
+    height: 50px;
+    width: 450px;
+    background-color: white;
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 25px;
+}
+
+.rectanglesearch {
+    height: 200px;
+    width: 450px;
+    background-color: white;
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 25px;
+}
+
+h2{
+    text-align: center;
+}
+
+
+.rectanglesearch input::placeholder{
+    color: Grey;
+}
+
+.rectanglesearch #resultstable{
+    font-family: "Times New Roman";
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.rectanglesearch #resultstable th {
+    font-family: "Times New Roman";
+    border: 1px solid #dddddd;
+    padding: 8px;
+    background-color: rgb(31, 156, 206);
+
+}
+
+.rectanglesearch #resultstable td{
+    font-family: "Times New Roman";
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: black;
+    background-color: white;
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+.rectangleoffence #offencestable{
+    font-family: "Times New Roman";
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.rectangleoffence #offencestable th {
+    font-family: "Times New Roman";
+    border: 1px solid #dddddd;
+    padding: 8px;
+    background-color: rgb(31, 156, 206);
+
+}
+
+.rectangleoffence #offencestable td{
+    font-family: "Times New Roman";
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: black;
+    background-color: white;
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+.rectanglesearch input{
+    width: 300;
+    font-size: 20pt;
+    color: black;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.login p{
+    text-align: center;
+}
+
+.register p{
+    text-align: center;
+}
